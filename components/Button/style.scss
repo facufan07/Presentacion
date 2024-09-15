@@ -1,0 +1,22 @@
+.buttonContainer{
+    z-index: 2;
+    width: 400px;
+    padding: 20px 15px 20px 15px;
+    border-radius: 20px;
+    margin: 20px 0px 0 0px;
+    transition: all 0.2s;
+    cursor: pointer;
+    @media (max-width:411px) {
+        width: 360px;
+    }
+    @media (max-width:393px) {
+        width: 300px;
+    }
+    @media (max-width:315px) {
+        width: 250px;
+    }
+    .content{
+        font-size: 1.1rem;
+        transition: all 0.2s;
+    }
+}
