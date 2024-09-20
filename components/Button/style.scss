@@ -1,11 +1,15 @@
 .buttonContainer{
     z-index: 2;
     width: 400px;
-    padding: 20px 15px 20px 15px;
+    padding: 20px 16px 20px 16px;
     border-radius: 20px;
     margin: 20px 0px 0 0px;
     transition: all 0.2s;
     cursor: pointer;
+    transition: all 0.2s;
+    &:hover{
+        border: solid white 1px;
+    }
     @media (max-width:411px) {
         width: 360px;
     }
@@ -18,5 +22,6 @@
     .content{
         font-size: 1.1rem;
         transition: all 0.2s;
+        
     }
 }

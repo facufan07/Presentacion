@@ -1,0 +1,31 @@
+.sectionList{
+    z-index: 2;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: solid white 2px;
+    border-radius: 20px;
+    padding: 50px 25px 50px 25px;
+    
+    .loading{
+        color: white;
+    }
+
+    .infoContainer{
+        border: solid white 2px;
+        border-radius: 10px;
+        padding: 20px 15px 20px 15px;
+        background-color: rgba(255, 255, 255, 0.129);
+        margin-bottom: 20px;
+        transition: all 0.2s;
+        &:hover{
+            background-color: rgba(245, 222, 179, 0);
+        }
+        .info{
+            font-size: 1.5rem;
+            color: white;
+            &:first-child{
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
