@@ -82,7 +82,7 @@ main {
         background-color: white;
         width: 70%;
         min-height: 400px;
-        border-radius: 100px 100px 100px 100px;
+        border-radius: 50px;
         animation: open 2s ease-in-out 1;
         transform: scale(1);
 
@@ -102,7 +102,7 @@ main {
 
             .text{
                 font-size: 1.2rem;
-                padding: 50px 80px 50px 80px;
+                padding: 50px 40px 50px 40px;
                 margin-bottom: 20px;
                 text-align: left;
             }
