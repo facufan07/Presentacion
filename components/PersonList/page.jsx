@@ -37,8 +37,8 @@ export default function PersonList(){
             {loading ?
             <h1 className="loading">loading...</h1>
             :
-            data.map(dato=>(
-                <div className="infoContainer">
+            data.map((dato, index)=>(
+                <div className="infoContainer" key={index}>
                     <h1 className="info">{dato.nombre}</h1>
                     <h2 className="info">{dato.apellido}</h2>
                 </div>
