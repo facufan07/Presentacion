@@ -16,7 +16,7 @@ export default function home(){
             back="rgba(208, 208, 208, 0.9)"
             hover="rgba(208, 208, 208, 0)"
             content="Busco información acerca de Facundo Fandiño"
-            link="/donar"
+            link="/informacion"
             />
             <Button 
             back="rgba(208, 208, 208, 0.9)"

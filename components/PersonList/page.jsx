@@ -5,7 +5,7 @@ import "./style.scss"
 
 export default function PersonList(){
     const [data, setData] = useState([]);
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
 
     const url = "http://localhost:8080/api/persona/get"
 
@@ -29,7 +29,7 @@ export default function PersonList(){
         };
 
     useEffect(() =>{
-        fetchData();
+        //fetchData();
     },[])
 
     return(
