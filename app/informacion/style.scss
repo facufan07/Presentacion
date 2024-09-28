@@ -128,6 +128,16 @@ main {
                 animation: move 1s ease-in-out 1;
                 transition: all 0.5s;
                 cursor: pointer;
+                outline: none; 
+                box-shadow: none;
+
+                button:focus,
+                button:active {
+                outline: none; 
+                background-color: inherit; 
+                color: inherit; 
+                box-shadow: none;
+                }
                 &:hover{
                     border: solid black 1px;
                     background-color: white;
