@@ -110,7 +110,7 @@ main {
         
         .button-container{
             width: 100%;
-            margin-top: 50px;
+            margin-top: 70px;
             display: flex;
             flex-direction: column;
             align-items:center;
@@ -128,16 +128,7 @@ main {
                 animation: move 1s ease-in-out 1;
                 transition: all 0.5s;
                 cursor: pointer;
-                outline: none; 
-                box-shadow: none;
 
-                button:focus,
-                button:active {
-                outline: none; 
-                background-color: inherit; 
-                color: inherit; 
-                box-shadow: none;
-                }
                 &:hover{
                     border: solid black 1px;
                     background-color: white;
