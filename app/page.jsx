@@ -6,7 +6,7 @@ import { useState } from "react"
 
 //<Link href="/Pagina"></Link>
 
-export default function home(){
+export default function Home(){
     const [top, setTop] = useState(0);
     function handleClick(){
         setTop(-1000);
