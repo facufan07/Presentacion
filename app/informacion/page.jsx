@@ -1,5 +1,5 @@
 "use client"
-import { use, useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 import "./style.scss"
 import data from "../../data/info.json"
 
@@ -7,6 +7,8 @@ export default function Informacion(){
     const [hide, setHide] = useState(0);
     const [card, setCard] = useState(0);
     const [opacity, setOpacity] = useState(0);
+    const [hover, setHover] = useState("black")
+    const [hover2, setHover2] = useState("black")
 
     useEffect(() => {
         const timer = setTimeout(() =>{
@@ -17,7 +19,7 @@ export default function Informacion(){
         return () => clearTimeout(timer); 
     }, [])
 
-    function handleClick(){
+    function handleNext(){
         const long = Object.keys(data).length - 1;
 
         
@@ -30,6 +32,33 @@ export default function Informacion(){
         }
     }
 
+    function handleBack() {
+
+        if (card > 0){
+            setOpacity(0);
+            setTimeout(() =>{
+                setOpacity(1);
+                setCard(card - 1);
+            }, 1000);
+        } 
+
+    }
+
+    function handleOver(){
+        setHover("white");
+    }
+
+    function handleLeave(){
+        setHover("black")
+    }
+    
+    function handleOver2(){
+        setHover2("white");
+    }
+
+    function handleLeave2(){
+        setHover2("black")
+    }
     return(
         <main>
             <section className="info-container">
@@ -38,7 +67,19 @@ export default function Informacion(){
                 </div>
                 
                 <div className="button-container">
-                    <button onClick={handleClick} style={{opacity: hide}}></button>
+                    <button
+                    onMouseOver={handleOver}
+                    onMouseLeave={handleLeave}
+                    onClick={handleBack} 
+                    style={{opacity: hide ,backgroundColor: hover}}
+                    ></button>
+
+                    <button 
+                    onClick={handleNext} 
+                    onMouseOver={handleOver2}
+                    onMouseLeave={handleLeave2}
+                    style={{opacity: hide, backgroundColor: hover2}}
+                    ></button>
                 </div>
             </section>
         </main>
