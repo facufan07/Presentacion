@@ -128,7 +128,7 @@ main {
                 background-color: black;
                 
                 animation: move 1s ease-in-out 1;
-                transition: all 0.5s;
+                transition: background-color 0.5s, opacity 1.5s;
                 cursor: pointer;
 
                 &:hover{

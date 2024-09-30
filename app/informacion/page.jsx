@@ -38,7 +38,7 @@ export default function Informacion(){
                 </div>
                 
                 <div className="button-container">
-                    <button onClick={handleClick} style={{transform: `scale(${hide})`}}></button>
+                    <button onClick={handleClick} style={{opacity: hide}}></button>
                 </div>
             </section>
         </main>
