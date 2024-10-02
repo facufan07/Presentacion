@@ -59,9 +59,10 @@ main {
     min-height: 100vh;
 	background-color: black;
 	display: flex;
-	align-items: center;
-    justify-content: center;
-	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: flex-start;
+	flex-wrap: wrap;
 
     &::before{
 		content: "";

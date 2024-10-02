@@ -19,7 +19,7 @@ export default function Home(){
                         <div className="container-photo">
                         </div>
                         <h1>Facundo Fandiño</h1>
-                        <p>Estudiante de Tecnicatura en Programación</p>
+                        <p>Estudiante de Tecnicatura en Programación y Sistemas</p>
                     </div>
                     <button onClick={handleClick}>Continuar</button>
                 </div>
