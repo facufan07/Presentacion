@@ -45,19 +45,19 @@ export default function Home(){
             back="rgba(208, 208, 208, 0.9)"
             hover="rgba(208, 208, 208, 0)"
             content="Quiero comunicarme con Facundo Fandiño"
-            link="/donar"
+            link="/"
             />
             <Button 
             back="rgba(208, 208, 208, 0.9)"
             hover="rgba(208, 208, 208, 0)"
             content="Quiero ver los proyectos en github de Facundo Fandiño"
-            link="/donar"
+            link="/"
             />
             <Button 
             back="rgba(208, 208, 208, 0.9)"
             hover="rgba(208, 208, 208, 0)"
-            content="Donar a Facundo Fandiño"
-            link="/donar"
+            content="Descargar CV"
+            link="/"
             />
         </main>
     )
