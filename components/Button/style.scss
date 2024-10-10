@@ -1,8 +1,10 @@
 .buttonContainer{
+    box-sizing: border-box;
     z-index: 2;
     width: 400px;
     padding: 20px 16px 20px 16px;
     border-radius: 20px;
+    border: solid rgba(208, 208, 208, 0.9) 1px;
     margin: 20px 0px 0 0px;
     transition: all 0.2s;
     cursor: pointer;

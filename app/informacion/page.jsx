@@ -60,7 +60,7 @@ export default function Informacion(){
         setHover2("black")
     }
     return(
-        <main>
+        <main style={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems: "center"}}>
             <section className="info-container">
                 <div className="text-container">
                     <p style={{opacity: opacity}} className="text">{data[`card${card}`]}</p>

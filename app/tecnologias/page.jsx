@@ -3,7 +3,7 @@ import Tecnology from "../../components/Tecnology/page"
 
 export default function Tecnologias(){
     return(
-        <main>
+        <main style={{display:"flex", justifyContent:"center", flexWrap: "wrap"}}>
             <Tecnology
             image = "../../images/html.png"
             title= "HTML"

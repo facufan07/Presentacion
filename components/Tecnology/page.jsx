@@ -4,7 +4,7 @@ import "./style.scss"
 export default function Tecnology({ image, title, width }){
     const [isHover, setIsHover] = useState(false);
     const [opacity, setOpacity] = useState(0);
-    const [position, setPosition] = useState("fixed");
+    const [position, setPosition] = useState("relative");
     const [opacity2, setOpacity2] = useState(1);
     
 

@@ -12,7 +12,7 @@ export default function Home(){
         setTop(-1000);
     }
     return (
-        <main>
+        <main style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
             <section style={{top: top}}className="me-section">
                 <div className="me">
                     <div className="me-container">
