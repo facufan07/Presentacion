@@ -1,43 +1,104 @@
-a{
+.proyect-container{
     box-sizing: border-box;
-    text-decoration: none;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    border: solid black 3px;
     transition: all 1s;
-    .proyect-container{
-        
-        
-        width: 250px;
-        height: 200px;
-        display: flex;
-        border-radius: 20px;
-        flex-direction: column;
-        align-items: center;
-        border: solid black 3px;
-        transition: all 0.5s;
-        cursor: pointer;
-        margin: 50px 50px;
-    
-        &:hover{
-            border: solid white 3px;
-            width: 260px;
-            height: 210px;
-        }
-    
-        .image{
-            height: 100px;
-            width: 100%;
-            border-radius: 15px;
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            overflow: hidden;
-        }
-    
-        .title{
-            color: white;
-            font-weight: 600;
-            margin-top: 15px;
-            font-size: 1.3rem;
-        }
+    cursor: pointer;
+    margin: 50px 50px;
+
+    &:hover{
+        border: solid white 3px;
+        width: 260px;
+        height: 210px;
+    }
+
+    .image{
+        height: 100px;
+        width: 100%;
+        border-radius: 15px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+
+    .title{
+        color: white;
+        font-weight: 600;
+        margin-top: 15px;
+        font-size: 1.3rem;
     }
 }
 
+.info-container{
+    box-sizing: border-box;
+    transition: all 1s;
+    position: fixed;
+    top: 70px;
+    width: 80vw;
+    min-height: 600px;
+    background-color: black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-left: solid rgb(202, 199, 199) 2px;
+    border-right: solid rgb(202, 199, 199) 2px;
+
+    .info-image{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        width: 75vw;
+        height: 300px;
+        margin-top: 30px;
+        border-right: solid rgb(134, 134, 134) 2px;
+        border-left: solid rgb(134, 134, 134) 2px;
+    }
+
+    .info-title{
+        color: rgb(202, 199, 199);
+        font-weight: 600;
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
+    .info-description{
+        color: rgb(202, 199, 199);
+        margin-top: 20px;
+        width: 80%;
+        text-align: center;
+        word-wrap: break-word;
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+
+    a{
+        margin-top: 30px;
+        color: blue;
+        font-size: 1.4rem;
+    }
+
+    .back{
+        margin-top: 50px;
+        background-color: black;
+        color: rgb(202, 199, 199);
+        font-size: 1.3rem;
+        border: solid rgb(202, 199, 199) 1px;
+        border-radius: 10px;
+        padding: 10px 20px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin-bottom: 20px;
+        &:hover{
+            background-color: rgb(202, 199, 199);
+            color:black;
+        }
+    }
+}

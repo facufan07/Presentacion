@@ -2,6 +2,7 @@
 {
     "name": "Coffee Market",
     "image": "../../images/coffee.png",
-    "link": "https://github.com/facufan07/coffee"
+    "link": "https://github.com/facufan07/coffee",
+    "description": "En este proyecto tuve que extraer informacion de una api de terceros, tuve que filtrar la entre los productos que estaban disponibles y los que no, tambien mostre todos los cafes con cada una de sus caracteristicas. Solamente use un componente de React para poder mostrar cada cafe. Hecho con Next.JS"
 }
 ]

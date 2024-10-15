@@ -1,13 +1,31 @@
+import { useState } from "react";
 import "./style.scss";
 
-export default function Proyect({ name, image, key, link, scale }){
+export default function Proyect({ name, image, key, link, scale, description }){
+    const [appear, setAppear] = useState(0);
     return(
-        <a key={key} href={link} style={{transform: `scale(${scale})`}}>
-            <div className="proyect-container">
+        <>
+        <div 
+        key={key} 
+        className="proyect-container" 
+        style={{transform: `scale(${scale})`}}
+        onClick={() => setAppear(1)}
+        >
             <div className="image" style={{backgroundImage: `url(${image})`}}></div>
             <h1 className="title">{name}</h1>
         </div>
-        </a>
+
+        <div className="info-container" style={{transform: `scale(${appear})`}}>
+            <div className="info-image" style={{backgroundImage: `url(${image})`}}></div>
+            <h1 className="info-title">{name}</h1>
+            <p className="info-description">{description}</p>
+            <a key={key} href={link}>-Repositorio-</a>
+            <button 
+            className="back"
+            onClick={() => setAppear(0)}
+            >{"<< Atras"}</button>
+        </div>
         
+        </>
     )
 }

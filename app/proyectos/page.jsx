@@ -19,7 +19,8 @@ export default function Proyectos(){
         justifyContent:"center", 
         alignItems:"center",
         flexWrap: "wrap",
-        flexBasis: "content"}}>
+        flexBasis: "content"}}
+        >
             <div className="proyects-container"
             style={{
                 display:"flex", 
@@ -31,8 +32,10 @@ export default function Proyectos(){
                     name = {info.name}
                     image = {info.image}
                     link = {info.link}
+                    description = {info.description}
                     key = {key}
-                    scale={scale}/>
+                    scale={scale}
+                    />
                 ))}
                 
             </div>
