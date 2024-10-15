@@ -12,14 +12,14 @@ export default function Home(){
         setTop(-1000);
     }
     return (
-        <main style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
+        <main style={{display:"flex", flexDirection:"column", alignItems:"center", paddingTop: "50px"}}>
             <section style={{top: top}}className="me-section">
                 <div className="me">
                     <div className="me-container">
                         <div className="container-photo">
                         </div>
                         <h1>Facundo Fandiño</h1>
-                        <p>Estudiante de Tecnicatura en Programación y Sistemas</p>
+                        <p>Estudiante de Tecnicatura en Programación y Sistemas, Desarrollador Frontend Junior</p>
                     </div>
                     <button onClick={handleClick}>Continuar</button>
                 </div>
@@ -44,14 +44,8 @@ export default function Home(){
             <Button 
             back="rgba(208, 208, 208, 0.9)"
             hover="rgba(208, 208, 208, 0)"
-            content="Quiero comunicarme con Facundo Fandiño"
-            link="/"
-            />
-            <Button 
-            back="rgba(208, 208, 208, 0.9)"
-            hover="rgba(208, 208, 208, 0)"
             content="Quiero ver los proyectos en github de Facundo Fandiño"
-            link="/"
+            link="/proyectos"
             />
             <Button 
             back="rgba(208, 208, 208, 0.9)"

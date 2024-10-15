@@ -4,7 +4,7 @@ import Link from "next/link"
 import "./style.scss";
 
 export default function Button(props){
-    const archivo = "/archivos/cvActualizadoNuevo.pdf";
+    const archivo = "/archivos/CurriculumVitae.pdf";
     const [hovered, setHovered] = useState(props.back);
     const [color, setColor] = useState("black")
 

@@ -35,11 +35,11 @@ export default function Tecnologias(){
             <Tecnology
             image = "../../images/springboot.png"
             title= "SpringBoot"
-            width= {30}/>
+            width= {10}/>
             <Tecnology
             image = "../../images/python.webp"
             title= "Python"
-            width= {90}/>
+            width= {80}/>
             <Tecnology
             image = "../../images/mysql.png"
             title= "MySql"
