@@ -4,5 +4,11 @@
     "image": "../../images/coffee.png",
     "link": "https://github.com/facufan07/coffee",
     "description": "En este proyecto extraí informacion de una api de terceros, tuve que filtrarla entre los productos que estaban disponibles y los que no, tambien mostre todos los cafes con cada una de sus caracteristicas. Solamente use un componente de React para poder mostrar cada cafe. Hecho con Next.JS"
+},
+{
+    "name": "Mueve la bola",
+    "image": "../../images/ball.png",
+    "link": "https://github.com/facufan07/ball-move",
+    "description": "En este proyecto quise mover un elemento dentro del DOM, entonces me puse manos a la obra, pero habia un problema al querer mover el elemento cuando dejaba presionado el click. Si lo movia muy rapido al mouse se me iba afuera del objeto, entonces por consiguiente no se me disparaba otro evento que era al dejar de presionar el mouse. El problema era que solo estos eventos funcionaban cuando yo tenia el mouse adentro del elemento, entonces por eso me generaba el error. Aunque hubieron bastantes dificultades pude resolverlo haciendo uso del useEffect de react, lo cual me permitio un correcto manejo en los eventos."
 }
 ]
