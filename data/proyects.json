@@ -1,5 +1,11 @@
 [
 {
+    "name": "ITCoolab",
+    "image": "../../images/itcoolab.png",
+    "link": "https://github.com/Noegraf/Coolab",
+    "description": "Este Proyecto es una coolaboracion entre varios juniors en el cual yo me tuve que encargar del lado del Frontend siguiendo un diseño hecho por una diseñadora UX/UI, este proyecto tiene el fin de facilitarle el ganar experiencia en trabajar en equipo a los juniors, Hecho con React y Next.JS"
+},
+{
     "name": "Coffee Market",
     "image": "../../images/coffee.png",
     "link": "https://github.com/facufan07/coffee",
@@ -10,12 +16,5 @@
     "image": "../../images/ball.png",
     "link": "https://github.com/facufan07/ball-move",
     "description": "En este proyecto quise mover un elemento dentro del DOM, entonces me puse manos a la obra, pero habia un problema al querer mover el elemento cuando dejaba presionado el click. Si lo movia muy rapido al mouse se me iba afuera del objeto, entonces por consiguiente no se me disparaba otro evento que era al dejar de presionar el mouse. El problema era que solo estos eventos funcionaban cuando yo tenia el mouse adentro del elemento, entonces por eso me generaba el error. Aunque hubieron bastantes dificultades pude resolverlo haciendo uso del useEffect de react, lo cual me permitio un correcto manejo en los eventos."
-}
-,
-{
-    "name": "ITCoolab",
-    "image": "../../images/itcoolab.png",
-    "link": "https://github.com/Noegraf/Coolab",
-    "description": "Este Proyecto es una coolaboracion entre varios juniors en el cual yo me tuve que encargar del lado del Frontend siguiendo un diseño hecho por una diseñadora UX/UI, este proyecto tiene el fin de facilitarle el ganar experiencia en trabajar en equipo a los juniors, Hecho con React y Next.JS"
 }
 ]
